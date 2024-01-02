@@ -119,9 +119,7 @@ ul {
 
 .link.active {
   color: #404bbf;
-}
 
-.linc .active:hover .linc .active:focus .menu-nav:hover .menu-nav:focus {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -130,7 +128,7 @@ ul {
   color: #404bbf;
 }
 
-.link-contacts:focus .link-contacts:hover {
+.link-contacts {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -180,10 +178,12 @@ ul {
     ),
     url(../images/Gpg12.jpg);
 
-  background-size: 1440px;
   background-repeat: no-repeat;
-  background-color: #2e2f42;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-size: cover;
+
+  max-width: 1440px;
+  background-position: center;
 }
 
 .main-title {
@@ -256,6 +256,11 @@ ul {
   border: 1px solid rgba(142, 143, 153, 1);
   background: rgba(244, 244, 253, 1);
   margin-bottom: 8px;
+}
+
+.services-icons {
+  width: 64px;
+  height: 64px;
 }
 
 .services-item {
